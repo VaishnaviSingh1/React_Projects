@@ -1,0 +1,70 @@
+/* App.css */
+
+/* Style the main container */
+.container {
+  display: flex;                 /* Use flexbox for layout */
+  flex-direction: column;       /* Stack items vertically */
+  align-items: center;          /* Center horizontally */
+  justify-content: center;      /* Center vertically */
+  height: 100vh;                /* Full viewport height */
+  background-color: #f0f2f5;    /* Light background color */
+  font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Heading style */
+.Heading {
+  font-size: 3rem;              /* Large text */
+  margin-bottom: 1rem;          /* Space below heading */
+  color: #333;                  /* Dark gray color */
+}
+
+/* Counter number style */
+.count {
+  font-size: 2.5rem;            /* Big bold number */
+  margin: 1rem 0;               /* Space top and bottom */
+  color: #555;                  /* Medium gray */
+}
+
+/* Button container layout */
+.btn-container {
+  display: flex;                /* Line up buttons horizontally */
+  gap: 1rem;                    /* Space between buttons */
+}
+
+/* Common button styles */
+button {
+  padding: 0.6rem 1.2rem;       /* Space inside buttons */
+  font-size: 1rem;              /* Readable font size */
+  border: none;                 /* Remove default border */
+  border-radius: 5px;           /* Slightly rounded corners */
+  cursor: pointer;              /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;  /* Smooth hover effect */
+}
+
+/* Specific button colors */
+.btn-incre {
+  background-color: #4CAF50;    /* Green */
+  color: white;                 /* White text */
+}
+
+.btn-incre:hover {
+  background-color: #45a049;    /* Darker green on hover */
+}
+
+.btn-dec {
+  background-color: #f44336;    /* Red */
+  color: white;
+}
+
+.btn-dec:hover {
+  background-color: #d32f2f;    /* Darker red */
+}
+
+.reset {
+  background-color: #2196F3;    /* Blue */
+  color: white;
+}
+
+.reset:hover {
+  background-color: #1976d2;    /* Darker blue */
+}
